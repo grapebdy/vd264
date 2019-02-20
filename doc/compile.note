@@ -1,0 +1,13 @@
+                              x264 compile
+
+1) download source code
+   # git clone https://git.videolan.org/git/x264.git
+
+2) configuration
+   # ./configure --prefix=installdir --enable-shared --disable-asm
+
+3) compile
+   # make -j4
+
+4) install library
+   # make install
