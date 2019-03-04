@@ -1,0 +1,13 @@
+                              ffmpeg compile
+
+1) download source code
+   # git clone https://github.com/FFmpeg/FFmpeg
+
+2) configuration
+   # ./configure --prefix=/opt/ffmpeg --enable-gpl --enable-libx264  --disable-x86asm
+
+3) compile
+   # make -j4
+
+4) install library
+   # make install
